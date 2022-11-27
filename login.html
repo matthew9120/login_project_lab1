@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- setting character set -->
+  <meta charset="UTF-8">
+  <!-- setting title -->
+  <title>Login</title>
+  
+  <!-- assigning with stylesheet -->
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <!-- showing the main part of the page -->
+  <main id="main-holder">
+    <!-- showing header -->
+    <h1 id="login-header">Login</h1>
+
+	<!-- showing form -->
+    <form id="login-form">
+      <!-- showing username field -->
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <!-- showing password field -->
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <!-- showing "Submit" button -->
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+    
+    <div id="login-error-msg">
+      <p id="login-error-msg-holder">Invalid authentication data</p>
+      <div id="error-msg-second-line"></div>
+     </div>
+
+  </main>
+  <!-- assigning with script -->
+  <script src="login.js"></script>
+</body>
+</html>
